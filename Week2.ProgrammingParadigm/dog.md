@@ -215,5 +215,6 @@ console.log(map( a => a.name, products));
 
 참고자료 [protoype](https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42)
 모던 자바스크립트 딥 다이브,
-모던 자바스크립트 web
-
+모던 자바스크립트 web,
+코파일럿,
+그 외 스처간 수 많은 블로그들...
