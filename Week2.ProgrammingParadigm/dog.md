@@ -21,7 +21,7 @@ dog 답변:
 -   const result = () => console.log(1);
     result 는 무명 함수의 반환 값 console.log(1);을 할당받는다.
 
-### KJS >> 함수형 프로그래밍의 특징 중 불변성에 대해 설명해주세요
+### KJS >> 함수형 프로그래밍의 특징 중 불변성에 대해 설명 해주세요
 
 dog 답변:
 
