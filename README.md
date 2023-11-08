@@ -47,21 +47,18 @@
 <h2>🧑‍💻 팀원 소개</h2>
   <table>
     <tr>
-      <td align="center"><img src="https://github.com/ejrtn0852.png" width="160"></td>
       <td align="center"><img src="https://github.com/novellus1013.png" width="160"></td>
       <td align="center"><img src="https://github.com/MIJI-H.png" width="160"></td>
       <td align="center"><img src="https://github.com/yeop222.png" width="160"></td>
       <td align="center"><img src="https://github.com/hyewonk815.png" width="160"></td>
     </tr>
     <tr>
-      <td align="center">dog</td>
       <td align="center">kjs</td>
       <td align="center">miz</td>
       <td align="center">yeop222</td>
       <td align="center">hyewon</td>
     </tr>
     <tr>
-      <td align="center"><a href="https://github.com/ejrtn0852" target="_blank">@ejrtn0852</a></td>
       <td align="center"><a href="https://github.com/novellus1013" target="_blank" width="160">@novellus1013</a></td>
       <td align="center"><a href="https://github.com/MIJI-H" target="_blank">@MIJI-H</a></td>
       <td align="center"><a href="https://github.com/yeop222" target="_blank">@yeop222</a></td>
@@ -87,7 +84,7 @@
 - 다른 조원들이 작성한 질문 외에 만들 질문이 없다면, 그 주 학습 범위와 관련된 유명한 면접 질문과 답변 알아오기.
   => ex. 만약 이 주에 네트워크를 학습 했다면 "인터넷 창에 Google.com을 치면 어떤 일이 발생할까요?"
 - 매 주 수요일 오전 8:00 전 까지 Github repo에 다른 스터디 구성원이 만든 질문에 대한 답변 작성하고 등록하기
-- 매 주 수요일 오후 8:00 에 스터디 모임 (Discord)
+- 매 주 수요일 오후 9:30 에 스터디 모임 (Discord)
 - 회의 진행 후에 회고록 및 추가질문 issue 생성하여 진행
 
 ## ☠️ 벌칙
