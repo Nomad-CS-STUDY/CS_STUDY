@@ -1,7 +1,7 @@
 # RESTful API의 의미와 설계 규칙
 
 <div align=center>
-    <img src="./assets/main.png" width="800"/>
+    <img src="../assets/main.png" width="800"/>
 </div>
 
 ## RESTful API 란?
