@@ -30,6 +30,7 @@
 ---
 
 > 참고
-> https://www.w3schools.com/tags/ref_httpmethods.asp
-> https://www.geeksforgeeks.org/difference-between-http-get-and-post-methods/
-> https://restfulapi.net/resource-naming/
+
+- https://www.w3schools.com/tags/ref_httpmethods.asp
+- https://www.geeksforgeeks.org/difference-between-http-get-and-post-methods/
+- https://restfulapi.net/resource-naming/

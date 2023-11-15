@@ -39,7 +39,10 @@ RESTful API는 일반적으로 HTTP 메서드(GET, POST, PULL, DELETE)와 URI를
 - URI에 CRUD 함수 이름을 사용 X
 - 쿼리 파라미터를 사용해서 정렬 or 필터링
 
+---
+
 > 참고
+
 - https://aws.amazon.com/ko/what-is/restful-api/
-- https://www.redhat.com/ko/topics/api/what-is-a-rest-api 
+- https://www.redhat.com/ko/topics/api/what-is-a-rest-api
 - https://restfulapi.net/resource-naming/
