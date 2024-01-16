@@ -15,7 +15,7 @@
   1. Stop and Wait (정지-대기)
 
      <div align=center>
-       <img src="../assets/stop_and_wait.png" width="600"/>
+       <img src="../assets/stop_and_wait.png" width="300"/>
      </div>
 
      - 매번 전송한 패킷에 대해 확인 응답(ACK)을 받아야만 그 다음 패킷을 전송하는 방법
@@ -40,7 +40,7 @@
   1. AIMD (Additive Increase/Multicative Decrease)
 
      <div align=center>
-       <img src="../assets/aimd.png" width="600"/>
+       <img src="../assets/aimd.png" width="400"/>
      </div>
 
      - 합 증가/곱 감소 방식
@@ -52,7 +52,7 @@
   2. Slow Start (슬로 스타트)
 
      <div align=center>
-       <img src="../assets/slow_start.png" width="600"/>
+       <img src="../assets/slow_start.png" width="300"/>
      </div>
 
      - 패킷을 하나씩 보내면서 시작하고, 패킷이 문제없이 도착하면 각각의 ACK 패킷마다 window size를 1씩 늘려줌
@@ -78,7 +78,7 @@
   5. Fast Retransmit (빠른 재전송)
 
      <div align=center>
-       <img src="../assets/fast_retransimt.png" width="600"/>
+       <img src="../assets/fast_retransimt.png" width="300"/>
      </div>
 
      - 중복된 순번의 패킷을 3개 받으면 재전송함
