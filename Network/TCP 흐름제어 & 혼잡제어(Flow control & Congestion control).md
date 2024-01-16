@@ -14,21 +14,21 @@
 
   1. Stop and Wait (정지-대기)
 
-    <div align=center>
-      <img src="../assets/stop_and_wait.png" width="600"/>
-    </div>
+     <div align=center>
+       <img src="../assets/stop_and_wait.png" width="600"/>
+     </div>
 
-       - 매번 전송한 패킷에 대해 확인 응답(ACK)을 받아야만 그 다음 패킷을 전송하는 방법
+     - 매번 전송한 패킷에 대해 확인 응답(ACK)을 받아야만 그 다음 패킷을 전송하는 방법
 
   2. Sliding Window (슬라이딩 윈도우)
 
-    <div align=center>
-      <img src="../assets/sliding_window.png" width="600"/>
-    </div>
+     <div align=center>
+       <img src="../assets/sliding_window.png" width="600"/>
+     </div>
 
-  - 수신 측에서 설정한 윈도우(수신, 송신 스테이션 양쪽에서 만들어진 버퍼 크기) 크기만큼 송신 측에서 확인 응답(ACK) 없이 패킷을 전송할 수 있게 하여 데이터 흐름을 동적으로 조절하는 제어 기법
+     - 수신 측에서 설정한 윈도우(수신, 송신 스테이션 양쪽에서 만들어진 버퍼 크기) 크기만큼 송신 측에서 확인 응답(ACK) 없이 패킷을 전송할 수 있게 하여 데이터 흐름을 동적으로 조절하는 제어 기법
 
-  - 송신 측은 ACK 라는 프레임을 받게 되면 ACK 프레임에 다른 프레임의 수 만큼 오른쪽으로 경계가 확장됨
+     - 송신 측은 ACK 라는 프레임을 받게 되면 ACK 프레임에 다른 프레임의 수 만큼 오른쪽으로 경계가 확장됨
 
 ## 혼잡제어(Congestion control)
 
@@ -39,25 +39,25 @@
 
   1. AIMD (Additive Increase/Multicative Decrease)
 
-    <div align=center>
-      <img src="../assets/aimd.png" width="600"/>
-    </div>
+     <div align=center>
+       <img src="../assets/aimd.png" width="600"/>
+     </div>
 
-  - 합 증가/곱 감소 방식
+     - 합 증가/곱 감소 방식
 
-  - 처음에 패킷을 하나씩 보내고 문제 없이 도착하면 윈도우의 크기를 1씩 증가시켜가며 전송함
+     - 처음에 패킷을 하나씩 보내고 문제 없이 도착하면 윈도우의 크기를 1씩 증가시켜가며 전송함
 
-  - 만약, 전송에 실패하면 윈도우 크기를 반으로 줄임
+     - 만약, 전송에 실패하면 윈도우 크기를 반으로 줄임
 
   2. Slow Start (슬로 스타트)
 
-    <div align=center>
-      <img src="../assets/slow_start.png" width="600"/>
-    </div>
+     <div align=center>
+       <img src="../assets/slow_start.png" width="600"/>
+     </div>
 
-  - 패킷을 하나씩 보내면서 시작하고, 패킷이 문제없이 도착하면 각각의 ACK 패킷마다 window size를 1씩 늘려줌
+     - 패킷을 하나씩 보내면서 시작하고, 패킷이 문제없이 도착하면 각각의 ACK 패킷마다 window size를 1씩 늘려줌
 
-  - 즉, 한 주기가 지나면 window size가 2배로 됨
+     - 즉, 한 주기가 지나면 window size가 2배로 됨
 
   3. Congestion Avoidance (혼잡 회피)
 
@@ -76,6 +76,10 @@
      - 빠른 회복 정책이 적용되면 이후엔 순수한 AIMD 방식으로 동작
 
   5. Fast Retransmit (빠른 재전송)
+
+     <div align=center>
+       <img src="../assets/fast_retransimt.png" width="600"/>
+     </div>
 
      - 중복된 순번의 패킷을 3개 받으면 재전송함
 
