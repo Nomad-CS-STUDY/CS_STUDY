@@ -57,4 +57,9 @@ MMU에 대해서는 Memory Management Unit.md에서 이어집니다.
 
   하지만 프로세스가 필요한 메모리 공간만큼 메모리를 할당해주기 때문에 내부 단편화 문제는 발생하지 않지만, 중간에 메모리를 해제하면 외부 단편화 문제가 발생하게 됩니다.
 
+---
+**Paging vs Segmentation**
+- Paging은 고정 크기를 가짐
+- Segmentation은 가변 크기를 가짐
+- Paging은 내부 단편화 발생 가능, Segmentation은 외부 단편화 발생 가능
 
