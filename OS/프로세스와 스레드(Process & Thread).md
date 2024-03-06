@@ -26,7 +26,7 @@
 ## 스레드
 
 <div align=center>
-    <img src="../assets/thread.png" width="400"/>
+    <img src="../assets/thread.png" width="600"/>
 </div>
 
 - 하나의 프로세스 내에서 동시에 진행되는 작업 갈래, 흐름의 단위
