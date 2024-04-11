@@ -25,7 +25,6 @@
 </div>
 
 3. 멀티 프로세서에서 공유 메모리 내의 커널 데이터에 접근하는 경우
-
 <div align=center>
     <img src="../assets/memory kernel.png" width="600"/>
 </div>
