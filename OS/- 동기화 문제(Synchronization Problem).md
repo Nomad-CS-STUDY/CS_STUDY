@@ -65,3 +65,15 @@
    - 프로세스가 Semaphore Queue에서 무한히 대기하는 상황
 3. 우선순위 역전(Priority Inversion)
    - 공유 자원에 대한 허가를 기다리는 동안 낮은 우선순위의 프로세스와 스케줄링 순서가 뒤바뀌는 상황
+
+---
+
+> 참고
+
+- https://velog.io/@wonseok97/%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EB%8F%99%EA%B8%B0%ED%99%94-%EB%AC%B8%EC%A0%9C%EC%99%80-%ED%95%B4%EA%B2%B0%EB%B2%95
+- https://velog.io/@guswns3371/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EB%AC%B8%EC%A0%9C%EC%9D%98-%ED%95%B4%EA%B2%B0%EC%B1%85
+- https://code-lab1.tistory.com/50#google_vignette
+- https://rebro.kr/176
+- [이미지 출처](https://rebro.kr/176)
+- [이미지 출처](https://rebro.kr/176)
+- [이미지 출처](https://rebro.kr/176)
