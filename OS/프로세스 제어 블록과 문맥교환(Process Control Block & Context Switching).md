@@ -40,3 +40,13 @@
 1. 멀티태스킹
 2. 인터럽트 핸들링
 3. 사용자와 커널 모드 전환
+
+---
+
+> 참고
+
+- https://sommda.tistory.com/84
+- https://hoyeonkim795.github.io/posts/pcb/
+- https://spurdev.tistory.com/13
+- [이미지 출처](https://yudeokrin.github.io/posts/2022-10-13-page57)
+- [이미지 출처](https://spurdev.tistory.com/13)
