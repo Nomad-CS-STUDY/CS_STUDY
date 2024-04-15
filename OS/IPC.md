@@ -23,6 +23,8 @@ IPC의 대표적인 방법(모델)은 메세지 전달방식과 공유 메모리
 
 
 ### 2. Messaging Passing Model
+![message passing](https://github.com/Nomad-CS-STUDY/CS_STUDY/assets/71619429/854820d2-42fd-4fe6-b650-843c163adcea)
+
 OS가 프로세스 간 통신 방법을 제공하고, 메세지를 대리 전달해준다. OS가 동기화를 해주기 때문에 안전하고 동기화 문제가 없으나, 시스템 콜을 사용하기 때문에 성능이 떨어진다. 
 
 분류
@@ -51,6 +53,7 @@ Synchronization (동기화) / Blocking
 
 ### IPC의 종류
 #### PIPE (파이프)
+![pipe](https://github.com/Nomad-CS-STUDY/CS_STUDY/assets/71619429/c1c2f8a6-35b3-4aed-8771-127ef2d8738d)
 
 - 파이프는 두 개의 프로세스를 연결하고 하나의 프로세스는 데이터를 쓰기만 하고, 다른 프로세스는 데이터를 읽기만 한다
 - 부모 자식 간에 단방향 통신으로 자주 사용한다
@@ -60,6 +63,9 @@ Synchronization (동기화) / Blocking
 
 
 #### Message Queues
+
+![message queue](https://github.com/Nomad-CS-STUDY/CS_STUDY/assets/71619429/4897ec1a-65f4-4292-b93a-754c82d82ed9)
+
 - 메모리를 사용한 pipe이며, 구조체를 기반으로 통신(stream X)한다.
 - 메세지 타입(msgtype)에 따라 구조체(데이터?) 종류를 다르게 받을 수 있으며, 여러 프로세스가 동시에 데이터를 다룰 수 있다.
 - 커널에서 제공하기 때문에 메모리 제한이 있을 수 있다.
